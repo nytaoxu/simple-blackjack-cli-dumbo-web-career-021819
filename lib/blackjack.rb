@@ -58,6 +58,8 @@ def hit?(number)
     number
   elsif input == 'h'
     number + deal_card
+  else
+    invalid_command
   end
 end
 
