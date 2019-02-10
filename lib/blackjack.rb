@@ -35,7 +35,7 @@ def initial_round
   total
 end
 
-def hit?
+def hit?(number)
   # code hit? here
   
   # choice = get_user_input.to_s
