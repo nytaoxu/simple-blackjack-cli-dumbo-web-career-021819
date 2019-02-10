@@ -37,21 +37,7 @@ end
 
 def hit?(number)
   # code hit? here
-  
-  # choice = get_user_input.to_s
-  # if choice != 'h' || choice != 's'
-  #   invalid_command
-  # loop do
-  #   prompt_user
-  #   choice = get_user_input.to_s
-  #   break if choice == 'h' || choice == 's'
-  # end
-  # if choice == 's'
-  #   ""
-  # else
-  #   number += deal_card
-  # end
-  # number
+
   prompt_user
   input = get_user_input
   if input == 's' 
