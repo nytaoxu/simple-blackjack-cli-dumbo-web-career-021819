@@ -52,7 +52,7 @@ def hit?(number)
   #   number += deal_card
   # end
   # number
-  propt_user
+  prompt_user
 end
 
 def invalid_command
