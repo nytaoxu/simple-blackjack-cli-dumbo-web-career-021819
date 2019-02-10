@@ -53,7 +53,12 @@ def hit?(number)
   # end
   # number
   prompt_user
-  get_user_input + number
+  input = get_user_input
+  if input = 's' 
+    number
+  else
+    number + deal_card
+  end
 end
 
 def invalid_command
