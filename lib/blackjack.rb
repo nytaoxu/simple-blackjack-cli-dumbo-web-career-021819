@@ -75,5 +75,6 @@ def runner
   # code runner here
   welcome
   display_card_total(hit?(initial_round))
+  end_game
 end
 
